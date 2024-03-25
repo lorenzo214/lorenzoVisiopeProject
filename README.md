@@ -4,6 +4,10 @@ Per allenare l'encoder e il discriminatore ho seguito questo paper:https://arxiv
 
 Sia la GAN che l'encoder sono stati addestrati per 25 epoche (più o meno) e nel notebook sono presenti due paremetri per rete scelti tra i 25 che trovavo migliori.
 
+Nella sezione test del notebook è possibile generare immagini come una normale GAN e trasformare immagini vere in anime e viceversa, ci sono degli esempi.
+Nel encoder le immagini vanno sempre fornite in gruppo.
+Per utilizzare il notebook suggerisco di usare kaggle dato che alcune funzioni potrebbero non funzionare correttamente in altri notebook come ad esempio colab.
+
 Di seguito tre immagini di esempio 
 
 Immagine 1 Reale
